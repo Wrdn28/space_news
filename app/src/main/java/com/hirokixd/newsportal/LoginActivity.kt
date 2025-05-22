@@ -2,8 +2,10 @@ package com.hirokixd.newsportal
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import android.widget.TextView
+import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -25,6 +27,8 @@ class LoginActivity : AppCompatActivity() {
         val loginButton: Button = findViewById(R.id.login_button)
 
         loginButton.setOnClickListener {
+            Toast.makeText(this, "Login berhasil!", Toast.LENGTH_SHORT).show()
+            Log.d("LoginActivity", "User menekan tombol login")
             val i = Intent(this, MainActivity::class.java)
             startActivity(i)
         }
