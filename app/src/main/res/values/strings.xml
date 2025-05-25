@@ -1,3 +1,21 @@
 <resources>
-    <string name="app_name">News Portal</string>
+    <!-- login Page -->
+    <string name="app_name">Space News</string>
+    <string name="login_title">Selamat Datang</string>
+    <string name="login_subtitle">Masukan akun anda disini</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="login_alternatif">Atau login dengan</string>
+    <string name="login_button_text">Login</string>
+    <string name="login_register_text1">Tidak punya akun?\u00A0</string>
+    <string name="login_register_text2"> Buat akun</string>
+
+    <!-- Register Page -->
+    <string name="register_title">Register</string>
+    <string name="register_subtitle">Buat akun anda disini</string>
+    <string name="password_confirmation_hint">Konfirmasi Password</string>
+    <string name="register_alternatif">Atau buat akun dengan</string>
+    <string name="register_button_text">Register</string>
+    <string name="register_login_text1">Sudah punya akun?\u00A0</string>
+    <string name="register_login_text2">Log in</string>
 </resources>

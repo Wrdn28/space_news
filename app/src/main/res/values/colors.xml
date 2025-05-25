@@ -4,7 +4,8 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="primary">#3F51B5</color>
-    <color name="grey">#606060</color>
+    <color name="grey">#9B9B9B</color>
     <color name="colorsecondary">#6B63FD</color>
     <color name="line">#D8D6D6</color>
+    <color name="formtext">#313131</color>
 </resources>

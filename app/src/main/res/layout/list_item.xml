@@ -5,7 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="8dp">
+    android:layout_margin="8dp"
+    android:background="@color/bg_color">
 
     <com.google.android.material.imageview.ShapeableImageView
         android:layout_width="80dp"
@@ -22,7 +23,7 @@
         android:id="@+id/heading"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Dedi Mulyadi Memasukan Mahasiswa ke Barak Militer"
+        android:text="Ini Text Heading"
         android:textColor="@color/black"
         android:textSize="16dp"
         android:textStyle="bold"
@@ -35,6 +36,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
+        android:layout_margin="12dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/title_image"
         android:background="@color/line"/>
